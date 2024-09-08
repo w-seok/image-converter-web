@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Format Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Image Format Converter</h1>
+    </header>
+    <main>
+        <section id="dropArea" class="drop-area">
+            <p>Drag & drop images here or</p>
+            <label for="fileInput" class="button">Choose Files</label>
+            <input type="file" id="fileInput" multiple accept="image/*">
+        </section>
+        <section id="fileList" class="file-list"></section>
+        <section id="convertedInfo" class="converted-info"></section>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

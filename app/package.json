@@ -1,0 +1,10 @@
+{
+  "name": "image-converter-web",
+  "version": "1.0.0",
+  "description": "Image format converter web application",
+  "main": "app.js",
+  "dependencies": {
+    "sharp": "^v0.33.0",
+    "formidable": "^3.5.0"
+  }
+}

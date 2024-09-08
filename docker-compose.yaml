@@ -1,0 +1,10 @@
+services:
+  node-container:
+    container_name: node-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - PORT=${NODE_PORT}
+    ports:
+      - "4001:${NODE_PORT}"
